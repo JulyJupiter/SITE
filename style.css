@@ -18,7 +18,6 @@ html, body {
 img {
     width: 100%;
     height: 100%;
-    
 }
 #navigation {
     grid-column: span 1;
@@ -73,12 +72,37 @@ img {
     align-items: center;
     margin: -2px;
     font-size: 2rem;
-align-items: center;
+    align-items: center;
 }
 #tashan{
     text-align: center;
 }
 #navigation a {
     text-decoration: none;
-    color: red; 
+    color: red;
+}
+#main-topic-content {
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+#author {
+ font-size: 0.9rem;
+}
+
+#gif-topic { 
+    height: 100%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: span 2;
+}
+#paragraphs { 
+font-size: 1.2rem;
+grid-column-start: span 
 }
