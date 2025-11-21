@@ -377,6 +377,7 @@ margin: auto;
     font-size: 36px;
     text-align: center;
     font-weight: bold;
+    animation: bounceOut 0.5s ease forwards;
 }
 #image-about-me {
     height: 100%;
@@ -385,6 +386,7 @@ margin: auto;
     filter: none;
     grid-column-start: 1;
     grid-column-end: 3;
+    animation: bounceOut 0.5s ease forwards; 
 }
 #main-content-about {
     display: grid;
@@ -402,11 +404,13 @@ margin: auto;
     border-radius: 8%;
     padding: 3rem;
     position: relative;
+    animation: fadeInVertical 0.6s ease forwards;
 }
 #home-icon-about {
     grid-column-start: 3;
     grid-column-end: 5;
     font-size: 80px;
+    animation: fadeIn 0.7s ease forwards;
 }
 #home-icon-about a {
     color: inherit;
