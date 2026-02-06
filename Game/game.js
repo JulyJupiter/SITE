@@ -20,7 +20,7 @@ addEventListener("keydown", (event) => {
 
 function update()
 {
-if (playerX + playerWidth)
+if ((playerX + playerWidth) >= 800)
 {
     playerX = 800 - playerWidth;
 }
