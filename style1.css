@@ -1,0 +1,55 @@
+#h1 { 
+    border: 2px  rgb(65, 122, 128) solid; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(65, 122, 128);
+    height: 2rem;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#Home a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px  rgba(37, 68, 19, 0.6) solid;
+    border-radius: 12%;
+    padding: 5px;
+    background:  rgba(37, 68, 19, 0.6);
+}
+#Contact a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px  rgba(37, 68, 19, 0.6) solid;
+    border-radius: 12%;
+    padding: 5px;
+    background:  rgba(37, 68, 19, 0.6);
+}
+#AboutMe a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px  rgba(37, 68, 19, 0.6) solid;
+    border-radius: 12%;
+    padding: 5px;
+    background:  rgba(37, 68, 19, 0.6);
+}
+#body {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 0.5fr 2fr 2fr 2fr;
+    padding: 20px;
+
+}
+#background { 
+    grid-column: span 3;
+    grid-row: span 3;   
+    position: relative;
+    background-color: rgb(65, 122, 128);
+    padding: 10px;
+}
+#profile { 
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
